@@ -38,5 +38,6 @@ $ go run server/main.go
 $ go run client/main.go
 ```
 
-The client should output two separate JWT tokens (AuthResponse), one for when the User registers and once for when the
-USer logs in.
+The client will output two JWT tokens `[AuthResponse]`
+- for when the _User_ registers
+- for when the _User_ logs in.
